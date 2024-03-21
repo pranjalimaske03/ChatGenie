@@ -19,7 +19,7 @@ const createChatLi = (message, className) => {
 }
 
 const generateResponse = (chatElement) => {
-    const API_URL = your_url;
+    //initialize your api url here
     const messageElement = chatElement.querySelector("p");
 
     // Define the properties and message for the API request
